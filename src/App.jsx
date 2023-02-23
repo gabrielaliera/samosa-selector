@@ -1,17 +1,17 @@
+import { useState } from 'react'
 import './App.css';
-import SamosaPic from "./assets/samosa.jpg";
-
-import { useState } from 'react';
-
-
-const [ count, setCount] = useState(0);
-
-const [multipler, setMultipler] = useState(1);
-
-const updateCount = () => setCount(count + multipler);
+import SamosaPic from "./assets/samosa.png";
 
 
 const App = () => {
+  const [ count, setCount] = useState(0)
+
+  const [multipler, setMultipler] = useState(1)
+
+  const updateCount = () => {
+    setCount(count + multipler);
+  }
+  
   return (
     <div className="App">
 
