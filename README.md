@@ -1,4 +1,4 @@
-# Samosa Selector Exemplar Project
+# Samosa Selector Project
 
 ## Overview
 
@@ -65,6 +65,7 @@ http://localhost:5173/
 <br/>
 
 ---
+<!--
 
 ### Deploy Community Board
 
@@ -73,12 +74,13 @@ To deploy this application on Netlify, run the following in your terminal:
 npm install
 npm run build
 ```
-<!--
+
 Upload the generated `dist` file to Netflify at:
 ```html
 https://app.netlify.com/drop
 ```
 -->
+
 ---
 
 *Last Updated: February 2023*
