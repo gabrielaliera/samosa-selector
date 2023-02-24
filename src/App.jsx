@@ -12,6 +12,26 @@ const App = () => {
   const updateCount = () => {
     setCount(count + multipler);
   }
+
+  const buyDoubleStuffed = () => {
+    if (count >= 10){
+      setMultipler(multipler * 2);
+    }
+  }
+
+  const buyPartyPack = () => {
+    if (count >= 100){
+      setMultipler(multipler * 5);
+      setCount(count - 100);
+    }
+  }
+
+  const buyFullFest = () => {
+    if (count >= 1000){
+      setMultipler(multipler * 10);
+      setCount(count - 1000);
+    }
+  }
   
   return (
     <div className="App">
@@ -25,17 +45,17 @@ const App = () => {
         <div className="upgrade">
           <h3>Double Stuffed 👯‍♀️</h3>
           <p>2x per click	</p>
-          <button>10 samosas</button>
+          <button oncClick={buyDoubleStuffed}>10 samosas</button>
         </div>
         <div className="upgrade">
           <h3>Party Pack 🎉</h3>
           <p>5x per click	</p>
-          <button>100 samosas</button>
+          <button onClick={buyPartyPack}>100 samosas</button>
         </div>
         <div className="upgrade">
           <h3>Full Feast 👩🏽‍🍳</h3>
           <p>10x per click	</p>
-          <button>1000 samosas</button>
+          <button onClick={buyFullFest}>1000 samosas</button>
         </div>
       </div>
     </div>
