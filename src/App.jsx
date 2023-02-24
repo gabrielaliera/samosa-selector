@@ -16,6 +16,7 @@ const App = () => {
   const buyDoubleStuffed = () => {
     if (count >= 10){
       setMultipler(multipler * 2);
+      setCount(count - 10);
     }
   }
 
