@@ -45,7 +45,7 @@ const App = () => {
         <div className="upgrade">
           <h3>Double Stuffed 👯‍♀️</h3>
           <p>2x per click	</p>
-          <button oncClick={buyDoubleStuffed}>10 samosas</button>
+          <button onClick={buyDoubleStuffed}>10 samosas</button>
         </div>
         <div className="upgrade">
           <h3>Party Pack 🎉</h3>
