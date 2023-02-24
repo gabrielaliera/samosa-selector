@@ -13,7 +13,7 @@ The game starts out with the user having zero samosas. The user has the option t
 
 ## Project Screenshot
 
-![screenshot of completed project](readme_screenshot.gif)
+![screenshot of completed project](https://github.com/gabrielaliera/samosa-selector/blob/master/samosa-walkthrough.gif)
 
 ## Setup
 
@@ -80,7 +80,4 @@ Upload the generated `dist` file to Netflify at:
 https://app.netlify.com/drop
 ```
 -->
-
----
-
 *Last Updated: February 2023*
